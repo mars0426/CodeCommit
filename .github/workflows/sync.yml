@@ -24,7 +24,7 @@ jobs:
           aws-region: ap-northeast-1
 
       - name: Sync up to CodeCommit
-        uses: mars0426/CodeCommit@v1
+        uses: mars0426/CodeCommit@main
         with:
           repository_name: DemoGitRepo
           aws_region: ap-northeast-1
